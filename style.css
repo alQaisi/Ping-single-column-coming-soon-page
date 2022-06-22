@@ -112,6 +112,9 @@ footer span{
     color: hsl(0, 0%, 59%);
 }
 @media only screen and (max-width:685px){
+    main{
+        margin-top: 50px;
+    }
     .logo{
         margin-top:25px;
     }
