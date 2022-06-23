@@ -19,4 +19,5 @@ emailBox.addEventListener("input",function(evt){
         error_msg.classList.remove("active");
         emailBox.classList.remove("error");
     }
+    evt.target.value=evt.target.value.trim();
 });
